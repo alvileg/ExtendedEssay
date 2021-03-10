@@ -1,0 +1,12 @@
+name: ExtendedEssay
+version: ${project.version}
+main: dev.alvileg.extendedessay.ExtendedEssay
+api-version: 1.15
+authors: [ AlvaroVila ]
+description: Extended Essay world loader
+commands:
+  load:
+    description: Loads a world wit custom size and compression algorithm
+    usage: /<load> <size> <algorithm>
+
+
